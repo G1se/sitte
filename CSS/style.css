@@ -1,0 +1,270 @@
+.shapka{
+	background-color:green ;
+}
+.CONTEINER{
+max-width: 1117px;
+margin: 0 auto;
+}
+.CONTEINER__HEADER{
+	display: flex;
+	justify-content: space-around;
+}
+.logo {
+font-family: 'Revalia';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+
+color: black;
+max-width: 100px;
+
+
+}
+.naav{
+margin: auto 0;
+}
+.menu{
+	display: flex;
+}
+.item-menu{
+	margin-right: 42px;
+	list-style: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 26px;
+letter-spacing: 0.1em;
+
+
+
+
+}
+.link__menu{
+	text-decoration: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 26px;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+/*Hero__bock*/
+.CONTEINER__HERO__BLOCK{
+display: flex;
+justify-content: space-between;
+padding-top: 117px;
+}
+.text__hb{
+	width: 540px;
+}
+.btn__hb{
+	margin-right: 42px;
+	list-style: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 26px;
+letter-spacing: 0.1em;
+border: none;
+background-color: red;
+}
+/*about*/
+
+.LOGO1 {
+font-family: 'Revalia';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+
+color: black;
+margin-block: 100px;
+}
+.title__about{
+	margin-top: 150px;
+	text-align: center;
+}
+
+.text__about{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+
+}
+.img_dolar{
+	max-width: 258px ;
+	margin: 0 auto;
+	display: block;
+}
+.main1{
+	background-color: aqua;
+}
+
+/*видео*/
+.title__video {
+margin-top: 150px;
+	text-align: center;	
+
+}		
+.text__video {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+padding-top: 117px;
+}
+.iframe__video{
+padding-top: 60px;
+padding-bottom: 100px;
+}
+/*gallery*/
+.gal__list{
+	margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.item__gal{
+width: 25%;	
+list-style: none;
+margin-top: -5px;
+
+}
+.gal{
+width: 100%;
+height: 460px;
+}
+.podval{
+margin-top:-5px ;
+background: #34547A;
+
+}
+.txt{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+margin: 0;
+}
+.txtx{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+margin: 0;	
+padding-top: 13px;
+}
+.foot__gal{
+	list-style: none;
+}
+.foot_gaal{
+	width: 45px;
+	padding-left: 20px;
+	
+}
+.conteiner__foot{	
+	align-items:center ;
+}
+
+.foot{
+	display: flex;
+	align-items: center;
+}
+.cont__div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between ;
+}
+.strelochka{
+	position: fixed;
+	width: 80px;
+	top: 100;
+	right: 0;
+	bottom: 0;
+	margin: 20px;
+}
+
+
+
+
+
+
+@media (max-width:834px) {
+.CONTEINER__HEADER{
+flex-direction: column;
+justify-content: space-around;
+}
+.link__menu{
+
+	font-size: 16px;
+}
+.logo{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.CONTEINER{
+	max-width: 630px;
+}
+.menu{
+	padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
